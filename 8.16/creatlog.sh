@@ -7,5 +7,5 @@ if [ ! -e /home/zwl/shell_learn/8.16/$filelog ];then
 fi
 
 echo "`date +'%Y-%m-%d %T'` start">>/home/zwl/shell_learn/8.16/filelog
-sleep 3
+sleep 4
 echo "`date +'%Y-%m-%d %T'` stop">>/home/zwl/shell_learn/8.16/filelog
