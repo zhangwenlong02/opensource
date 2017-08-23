@@ -32,3 +32,9 @@ te table t4(
 	primary key(id)
 	);
 null和默认值没有任何关系
+删除
+delete from t6 where id=3
+修改
+update t6 set age=50 where id=3
+查找
+select name from t6 where age<20
