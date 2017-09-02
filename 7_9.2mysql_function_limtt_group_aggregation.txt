@@ -19,6 +19,10 @@ mysql常用函数：
 select concat(name,'-',class_id) from t1 limit 2,3;                                          
 随机数rand()
 select * from t1 order by rand() limit 0,3;                                                  
+<<<<<<< HEAD
+=======
+
+>>>>>>> d30bcfe70c65b278d28c72a4c2651213c994d6c9
 统计个数conut()
 select count(*) from t1 where class_id=3;                                                    
 统计表总行数
@@ -26,6 +30,10 @@ select count(*) from t1 where class_id=3;
 select sum(class_id) from t1;
 平均值avg()
 select avg(class_id) from t1;
+<<<<<<< HEAD
+=======
+
+>>>>>>> d30bcfe70c65b278d28c72a4c2651213c994d6c9
 最大值max()
 select max(class_id) from t1 ;
 最小值min()
