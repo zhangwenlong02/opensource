@@ -16,12 +16,18 @@ select count(*) from t1 where class_id=3;
 
 mysql常用函数：
 连接函数concat()
+select concat(name,'-',class_id) from t1 limit 2,3;                                          
 随机数rand()
+select * from t1 order by rand() limit 0,3;                                                  
+
 统计个数conut()
->>>>>>> 12bff347de8b6b8550f48ca3d8a9b5d880061bf2
+select count(*) from t1 where class_id=3;                                                    
 统计表总行数
 求和sum()
+select sum(class_id) from t1;
 平均值avg()
+select avg(class_id) from t1;
+
 最大值max()
 最小值min()
 
