@@ -1,4 +1,5 @@
 1、使用limit限定输出个数：
+<<<<<<< HEAD
 select * from t1 limit 2,3;索引数从2开始，截取3个
 mysql常用函数：
 连接函数concat()
@@ -11,6 +12,13 @@ select * from t1 order by rand() limit 0,3;随机抽选三个人
 select count(*) from t1;统计t1中有多少航
 select count(*) from t1 where id >8;统计id>8的数据有几行
 select count(*) from t1 where class_id=3;
+=======
+
+mysql常用函数：
+连接函数concat()
+随机数rand()
+统计个数conut()
+>>>>>>> 12bff347de8b6b8550f48ca3d8a9b5d880061bf2
 统计表总行数
 求和sum()
 平均值avg()
