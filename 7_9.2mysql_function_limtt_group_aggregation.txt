@@ -39,7 +39,11 @@ select max(class_id) from t1 ;
 最小值min()
 select min(class_id) from t1 ;
 
+select * from t1 where id in(select max(class_id) from t1);查找最大班级数的人员信息
+
+
 group by 分组聚合的使用
+select class_id,count(id) from t1 group by class_id;以班级进行分组，分组之后查看各组有多少人
 
 多表查询
 1、普通多表查询
